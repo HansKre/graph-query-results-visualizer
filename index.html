@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Graph Query Visualizer</title>
+  <meta name="description" content="Visualizes queried graph results">
+
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <!-- http://tabulator.info/examples/4.9#theming -->
+  <link rel="stylesheet" href="./dependencies/tabulator_site.css">
+</head>
+
+<body>
+  <div id="loginPane">
+    <label for="user">Username:</label>
+    <input type="text" id="user" name="user"><br><br>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd"><br><br>
+    <input type="submit" value="Submit" id="submit">
+  </div>
+
+  <div class="wrapper">
+    <h2>Graph Query Visualizer</h2>
+    <div id="visualizations"></div>
+  </div>
+
+</body>
+
+<!-- <script src="https://unpkg.com/neo4j-driver"></script> -->
+<!-- <script type="text/javascript" src="./dependencies/neo4j-web_4.2.1.js"></script> -->
+<!-- <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script> -->
+<!-- <script type="text/javascript" src="./dependencies/tabulator.min.js"></script> -->
+<!-- <script src="https://cdn.neo4jlabs.com/neovis.js/v1.5.0/neovis.js"></script> -->
+<!-- <script type="text/javascript" src="./dependencies/neovis_1.5.0.js"></script> -->
+
+<script type="module" src="main.js"></script>
+
+</html>
